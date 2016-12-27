@@ -21,6 +21,7 @@ dependencies {
     compile 'commons-dbcp:commons-dbcp:1.4'
     //include in compile only, exclude in the war
     providedCompile 'javax.servlet:servlet-api:2.5'
+    compile 'org.springframework.kafka:spring-kafka:1.0.1.RELEASE'
 }
 
 
